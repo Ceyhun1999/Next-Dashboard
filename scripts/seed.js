@@ -1,4 +1,5 @@
 const { db } = require('@vercel/postgres');
+console.log(db);
 const {
   invoices,
   customers,
